@@ -1,0 +1,257 @@
+@media (max-width: 767px) {
+ 
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+body {
+  background-image: url('./images/luke-chesser-IGtutkXikuc-unsplash.jpg'); 
+  
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+header {
+
+  padding: 50px 0;
+  color: #fff;
+}
+
+.navbar {
+  background-image: url(./images/luke-chesser-pJadQetzTkI-unsplash.jpg);
+}
+
+.navbar-nav .nav-link {
+  color: rgb(158, 216, 11); 
+}
+
+.a{
+  position: relative;
+  padding: 16px;
+  font-size: 16px;
+  padding: 12px 16px;
+ 
+}
+  a:hover {background-color: #6bedf6;}
+.dropbtn {
+  color: rgb(31, 151, 210);
+  background: none;
+  border: none;
+  position: relative;
+  top: 6px;
+  font-size: large;
+  font-weight: 500;
+}
+.nav-item{
+  font-size: large;
+  font-weight: 500;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+   background-color: #e4edef;
+  min-width: 160px; 
+  
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #6bedf6;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #6bedf6;}
+
+
+
+
+.hero {
+  background: transparent;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "kanit";
+  color: rgb(14, 27, 2);
+  font-weight: bold;
+
+}
+
+.service-item {
+  text-align: center;
+  margin-bottom: 2rem;
+  
+}
+
+.service-icon {
+  width: 80px;
+  margin-bottom: 1rem;
+  height: 50%;
+  width: 50%;
+}
+
+.font-k{
+  font-family: "kanit";
+  color: rgb(138, 78, 5);
+}
+.font-u{
+  font-family: "kanit";
+  font-weight: 700;
+}
+.portfolio-item {
+  margin-bottom: 2rem;
+  
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+}
+.btn btn-primary{
+align-items: center;
+}
+footer {
+  background-color: #f5f5f5;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.row{
+  position: relative;
+    top: auto;
+    left: 135px;
+}
+.row1{
+  position: relative;
+  display: flex;
+}
+
+
+#contact {
+  background-image: url('./images/christian-dubovan-gxsRL8B_ZqE-unsplash.jpg');
+  background-size: cover;
+  padding: 5px 0;
+  color: #ffffff;
+align-items: center;
+width: 100%;
+}
+
+.nav-link1{
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: "kanit";
+  text-decoration: none;
+  color: blue;
+}
+
+.form-group{
+  align-items: center;
+}
+.section-space{
+  position: relative;
+  left: 280px;
+}
+
+.title-name{
+  font-family: "kanit";
+  font-size: xx-large;
+}
+
+.img-fluid1{
+  height:200px;
+  width: 250px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card {
+  margin-right: 15px; 
+  margin-left: 50px;
+}
+.card {
+  width: 18rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.4);
+}
+.section-title2{
+  color: white;
+  text-align: center;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 12rem; 
+}
+
+.contact-info{
+  font-size: larger;
+  font-weight: bold;
+  background-color: rgb(112, 202, 241);
+  color: blue;
+}
+
+
+.hero1{
+  background-image: url(./images/luke-chesser-IGtutkXikuc-unsplash.jpg);
+}
+
+.contact-i{
+  color: rgb(59, 56, 241);
+  text-align: center;
+  position: relative;
+  top: 5px;
+  left: -80px;
+  font-weight: bolder;
+
+}
+
+.contact-p{
+  color: rgb(235, 226, 241);
+  font-family: "kanit";
+
+}
+.contact-o{
+color: black;
+font-weight: bold;
+
+}
+.footer{
+  font-size: larger;
+  font-family: "kanit";
+  background-color: black;
+}
