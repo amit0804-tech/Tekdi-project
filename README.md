@@ -1,1 +1,0 @@
-# Tekdi-project
